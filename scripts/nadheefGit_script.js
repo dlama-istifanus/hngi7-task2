@@ -1,15 +1,10 @@
+//HNGi7-Stage 2 Task
+//Team Flash
+let email = "kazeemnasiff@gmail.com";
+let name = "Kazeem Nasiff";
+let myId = "HNG-03415";
+let language = "Javascript";
 
-const intern={
-	email: "kazeemnasiff@gmail.com",
-	firstName: "Kazeem",
-	lastName:"Nasiff",
-	id:"HNG-03415",
-	language: "javascript"
-	}
-console.log(intern)
-	const fullname=intern.firstName+" "+intern.lastName;
-	const id=intern.id;
-	const language=intern.language;
-	const email=intern.email; 
+let output = `Hello World, this is ${name} with HNGi7 ID ${myId} using ${language} for stage 2 task email ${email}`;
 
-console.log("Hello world,"+" "+ "this is"+" "+fullname+" "+"with HNGi7 ID"+" "+id+" "+"using"+" "+language+" "+"for stage 2 task email"+" "+email);
+console.log(output);
